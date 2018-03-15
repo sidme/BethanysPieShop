@@ -1,10 +1,21 @@
-﻿body {
+﻿/*!
+
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+
+ * Copyright 2013-2016 Start Bootstrap
+
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+
+ */
+
+
+
+body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-image: url('/images/pattern.png');
     background-repeat: repeat;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
 
 
 
@@ -29,7 +40,8 @@
 
 
 .caption {
-    height: 130px;
+    height: auto;
+    max-width: 100%;
     overflow: hidden;
 }
 
@@ -42,7 +54,7 @@
 
 
 .thumbnail img {
-    width: 100%;
+    width: 235px;
 }
 
 
