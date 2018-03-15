@@ -13,6 +13,8 @@ namespace BethanysPieShop.Models
 
         }
 
+        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
+
         public DbSet<Category> Categories { get; set; }
 
         public DbSet<Pie> Pies { get; set; }
